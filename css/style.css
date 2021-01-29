@@ -1,0 +1,150 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* Ubicación de la imagen */
+  background-image: url(../Imagenes/fondo-min.jpg);
+  /* Para dejar la imagen de fondo centrada, vertical y
+
+  horizontalmente */
+  background-position: center center;
+  /* Para que la imagen de fondo no se repita */
+  background-repeat: no-repeat;
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-attachment: fixed;
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  background-size: cover;
+  /* Se muestra un color de fondo mientras se está cargando la imagen
+
+  de fondo o si hay problemas para cargarla */
+  background-color: antiquewhite;
+  padding: 15px;
+  margin: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  Body {
+    background-image: url(../Imagenes/fondo-min.jpg);
+  }
+}
+h2 {
+  color: white;
+  padding: 10px;
+}
+
+/*Formulario de contacto*/
+form {
+  align-items: center;
+  border-radius: 15px;
+  border-color: black;
+  padding: 15px;
+}
+
+.btn-grid {
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  border-style: groove;
+  margin-top: 10px;
+}
+
+h5 {
+  padding: 15px;
+  font-family: "Oswald", sans-serif;
+}
+
+/*Fin arreglo formulario de contacto*/
+/*Arreglo de imagenes de carrousel */
+.imgnormalizada img {
+  width: auto;
+  height: 550px;
+  max-height: 600px;
+  /* fin arreglo de imagenes de carrousel */
+}
+
+.lead {
+  font-size: 35px;
+}
+
+.card-body {
+  background-color: #a5d0f8;
+}
+
+/*titulo pagina*/
+.display-1 {
+  font-family: "Oswald", sans-serif;
+  text-overflow: clip;
+}
+
+/*fin titulo pagina*/
+.nav-item {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.footer {
+  font-family: "Oswald", sans-serif;
+}
+
+img {
+  text-align: right;
+}
+
+h6 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer, ul {
+  list-style: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.container-testing {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  border-style: groove;
+}
+
+.container-seo {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  border-style: groove;
+}
+
+.container-funProg {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  border-style: groove;
+}
+
+.card-body-img {
+  text-align: center;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #358fe4;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
